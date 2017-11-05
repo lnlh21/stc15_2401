@@ -1,0 +1,1608 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\git\GITHUB\stc15_2401\project\down.uvproj
+Project File Date:  05/22/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(84): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\unit.h(21): error C202: 'P5': undefined identifier
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(84): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  RF_INIT
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  RF_INIT
+    MODULE:  .\main.obj (MAIN)
+    ADDRESS: 080EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+    ADDRESS: 0866H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0E82H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0E84H
+Program Size: data=9.1 xdata=103 code=1824
+creating hex file from "down"...
+"down" - 0 Error(s), 17 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(83): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+    ADDRESS: 0863H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0E7FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0E81H
+Program Size: data=9.1 xdata=103 code=1821
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(89): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NRF24L01_IRQ?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF2401_POWER?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DCEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DD0H
+Program Size: data=9.1 xdata=115 code=1644
+creating hex file from "down"...
+"down" - 0 Error(s), 16 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(89): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NRF24L01_IRQ?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF2401_POWER?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DCEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DD0H
+Program Size: data=9.1 xdata=115 code=1644
+creating hex file from "down"...
+"down" - 0 Error(s), 16 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(89): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NRF24L01_IRQ?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF2401_POWER?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DCEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0DD0H
+Program Size: data=9.1 xdata=115 code=1644
+creating hex file from "down"...
+"down" - 0 Error(s), 16 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(89): warning C206: 'NRF24L01_Irq': missing function-prototype
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(321): warning C280: 'pucAddr': unreferenced local variable
+..\soft\nrf24l01.c(324): warning C280: 'i': unreferenced local variable
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NRF24L01_IRQ?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF2401_POWER?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _RF_ADDCMDGETSN
+    MODULE:  .\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0D62H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  REMOTE_ADDRESS
+    MODULE:  .\cmd_rf.obj (CMD_RF)
+    ADDRESS: 0D64H
+Program Size: data=124.1 xdata=0 code=1491
+creating hex file from "down"...
+"down" - 0 Error(s), 16 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(56): warning C206: 'DRV_NRF2401_Power': missing function-prototype
+..\soft\main.c(56): error C267: 'DRV_NRF2401_Power': requires ANSI-style prototype
+..\soft\main.c(61): error C202: 'g_aucRfBuf': undefined identifier
+..\soft\main.c(64): error C202: 'g_aucHostAddr': undefined identifier
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(79): error C202: 'BSP_SPI_24L01': undefined identifier
+..\soft\nrf24l01.c(209): error C202: 'BSP_GPIO_IN_2401_IRQ': undefined identifier
+..\soft\nrf24l01.c(262): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(276): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(279): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(302): error C202: 'g_aucMyAddr': undefined identifier
+..\soft\nrf24l01.c(303): error C202: 'g_aucBcAddr': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(38): warning C206: 'NRF24L01_Send': missing function-prototype
+..\soft\cmd_rf.c(38): error C267: 'NRF24L01_Send': requires ANSI-style prototype
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(79): error C202: 'BSP_SPI_24L01': undefined identifier
+..\soft\nrf24l01.c(209): error C202: 'BSP_GPIO_IN_2401_IRQ': undefined identifier
+..\soft\nrf24l01.c(262): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(276): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(279): error C202: 'g_aucTxAddr': undefined identifier
+..\soft\nrf24l01.c(302): error C202: 'g_aucMyAddr': undefined identifier
+..\soft\nrf24l01.c(303): error C202: 'g_aucBcAddr': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(38): warning C206: 'NRF24L01_Send': missing function-prototype
+..\soft\cmd_rf.c(38): error C267: 'NRF24L01_Send': requires ANSI-style prototype
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(74): error C202: 'BSP_SPI_24L01': undefined identifier
+..\soft\nrf24l01.c(204): error C202: 'BSP_GPIO_IN_2401_IRQ': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(38): warning C206: 'NRF24L01_Send': missing function-prototype
+..\soft\cmd_rf.c(38): error C267: 'NRF24L01_Send': requires ANSI-style prototype
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(74): error C202: 'BSP_SPI_24L01': undefined identifier
+..\soft\nrf24l01.c(204): error C202: 'BSP_GPIO_IN_2401_IRQ': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(204): error C202: 'BSP_GPIO_IN_2401_IRQ': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_CHECK?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_INIT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DRV_NRF2401_INIT
+    MODULE:  .\unit.obj (UNIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DRV_NRF2401_INIT
+    MODULE:  .\unit.obj (UNIT)
+    ADDRESS: 0CCAH
+Program Size: data=94.1 xdata=0 code=1315
+creating hex file from "down"...
+"down" - 0 Error(s), 18 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(33): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF2401_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_INIT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DRV_NRF2401_INIT
+    MODULE:  .\unit.obj (UNIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DRV_NRF2401_INIT
+    MODULE:  .\unit.obj (UNIT)
+    ADDRESS: 0D04H
+Program Size: data=85.1 xdata=0 code=1373
+creating hex file from "down"...
+"down" - 0 Error(s), 18 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(269): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1373
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(260): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(269): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1373
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(266): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(275): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1378
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(266): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(275): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1378
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(268): error C202: 'CE': undefined identifier
+..\soft\unit.c(269): error C202: 'CSN': undefined identifier
+..\soft\unit.c(270): error C202: 'SCK': undefined identifier
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(269): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+..\soft\unit.c(271): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1383
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(276): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1389
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(276): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1389
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(276): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1389
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(276): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF2401_SENDCOMMAND?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1389
+creating hex file from "down"...
+"down" - 0 Error(s), 16 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1370
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1370
+creating hex file from "down"...
+"down" - 0 Error(s), 15 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1385
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1472
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1472
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1472
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1477
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(91): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(278): warning C206: 'DRV_NRF24L01_Check': missing function-prototype
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1477
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(259): error C231: 'CE': redefinition
+..\soft\unit.c(260): error C231: 'CSN': redefinition
+..\soft\unit.c(261): error C231: 'SCK': redefinition
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(259): error C231: 'CE': redefinition
+..\soft\unit.c(260): error C231: 'CSN': redefinition
+..\soft\unit.c(261): error C231: 'SCK': redefinition
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=83.1 xdata=0 code=1476
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1385
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(25): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=85.1 xdata=0 code=1385
+creating hex file from "down"...
+"down" - 0 Error(s), 14 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(45): warning C206: 'DRV_NRF24L01_TX_Mode': missing function-prototype
+..\soft\main.c(45): error C267: 'DRV_NRF24L01_TX_Mode': requires ANSI-style prototype
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(57): warning C206: 'DRV_NRF24L01_RX_Mode': missing function-prototype
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=117.1 xdata=0 code=1436
+creating hex file from "down"...
+"down" - 0 Error(s), 12 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(68): warning C206: 'DRV_NRF24L01_RX_Mode': missing function-prototype
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_RXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=117.1 xdata=0 code=1462
+creating hex file from "down"...
+"down" - 0 Error(s), 12 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1389
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1392
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1403
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1403
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1430
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1430
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+..\soft\nrf24l01.c(297): error C202: 'g_aucMyAddr': undefined identifier
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1430
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1430
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DRV_NRF24L01_RX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1430
+creating hex file from "down"...
+"down" - 0 Error(s), 13 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1433
+creating hex file from "down"...
+"down" - 0 Error(s), 12 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1433
+creating hex file from "down"...
+"down" - 0 Error(s), 12 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\soft\main.c(28): warning C280: 'i': unreferenced local variable
+compiling unit.c...
+..\soft\unit.c(92): warning C280: 'i': unreferenced local variable
+..\soft\unit.c(287): warning C206: 'DRV_NRF24L01_Init': missing function-prototype
+compiling nrf24l01.c...
+compiling cmd_rf.c...
+..\soft\cmd_rf.c(32): warning C280: 'pucRecvData': unreferenced local variable
+..\soft\cmd_rf.c(41): warning C312: misplaced endif control
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_TIMER0START?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEV_FLASHOK?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DEV_UART_SHOWCHAR?UNIT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TXPKT?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRV_NRF24L01_TX_MODE?NRF24L01
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_RF_RECV?CMD_RF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RF_SEND?CMD_RF
+Program Size: data=114.1 xdata=0 code=1422
+creating hex file from "down"...
+"down" - 0 Error(s), 12 Warning(s).
+Clean started: Project: 'down'
+   deleting intermediate output files for target 'Target 1'
